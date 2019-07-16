@@ -111,11 +111,13 @@ h6,
 .h2,
 .h3,
 .h4 {
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-family: 'Montserrat',"Franklin Gothic Bold";
     font-weight: 400;
     line-height: 1.1;
+ 	position: relative;
 }
+
 
 .teammembers img,
 .blog-box,
@@ -676,7 +678,7 @@ SECTIONS
     position: relative;
     overflow: hidden;
     display: block;
-    background-color: #ffffff;
+    background-color: #2B2B2B;
 }
 
 .section.noover {
@@ -702,7 +704,7 @@ SECTIONS
 }
 
 .section.lb {
-    background-color: #f7f6f6
+    background-color: #2d2d2d
 }
 
 .section.db {
@@ -862,7 +864,7 @@ PORTFOLIO
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
     border-bottom: 1px solid #eeeeee;
     border-radius: 0;
-    color: #000 !important;
+    color: #ffffff ;
     text-align: left;
 }
 
@@ -1574,7 +1576,7 @@ mark.rotate {
 }
 
 .service-box {
-    background-color: #ffffff;
+    background-color: #3D3D3D;
     padding: 60px 30px;
 }
 
@@ -1921,7 +1923,7 @@ fieldset[disabled] .btn-primary.focus,
 .owl-theme-01 .owl-nav [class*="owl-"]:hover,
 a.goitem,
 .bgcolor {
-    background-color: #01bacf;
+    background: radial-gradient(#7d7d7d,#2d2d2d);
 }
 
 .list-style-2 i,
@@ -2074,7 +2076,7 @@ RESPONSIVE
     }
 }
 
-@media(max-width:998px) {
+@media(max-width : 1151px ){
     .stat-count {
         margin: 15px 0;
     }
@@ -2153,3 +2155,4 @@ RESPONSIVE
         right: 100%;
     }
 }
+#yazi{border-bottom:solid 1px  blue;}
